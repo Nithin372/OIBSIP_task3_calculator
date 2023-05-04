@@ -37,7 +37,7 @@ class _CalculatorState extends State<Calculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.black87,
       body: Column(
         children: [
           SizedBox(
@@ -50,7 +50,7 @@ class _CalculatorState extends State<Calculator> {
                   input,
                   style: const TextStyle(
                     fontSize: 48,
-                    color: Colors.black87,
+                    color: Colors.white,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
